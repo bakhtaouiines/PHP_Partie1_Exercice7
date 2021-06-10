@@ -13,6 +13,6 @@
 </head>
 <body>
     <h1>Exercice 7 Partie 1 : Les variables PHP</h1>
-    <p><?= 'Bonjour '.$lastname.' '.$firstname.', tu as '.$age.' ans.';?></p>
+    <p>Bonjour <?=$lastname?> <?=$firstname?>, tu as <?=$age?>ans.</p>
 </body>
 </html>
